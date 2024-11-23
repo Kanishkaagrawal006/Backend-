@@ -12,12 +12,12 @@ public class threshold1 {
     private  final static  String password = "kanishka";
     private final static  int TIMER_INTERVAL= 360000;
     private static Session s ;
-    private static String  EMAIL = "kanishka.23bsa10095@vitbhopal.ac.in";
+    private static String  EMAIL = "";
     private static String SupplierEmail;
     private static String MedicineName;
     private static int  Quantiity;
     private static int MedicineID;
-    private static String key = "hong fxnl tgcw wxhr";
+    private static String key = "";
     public static void main(String[] args) {
        Timer t = new Timer();
        t.schedule(new TimerTask() {
